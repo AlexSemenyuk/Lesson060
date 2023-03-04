@@ -1,0 +1,73 @@
+/* Common */
+:root {
+    /* text color */
+    --color-text-primary: rgba(0, 0, 0, 1);
+    --color-text-secondary: rgba(255, 255, 255, 1);
+
+    /* background */
+    --color-background-body: rgb(210, 210, 210, 1);
+    --color-background-initial-data: rgb(126, 196, 222);
+    --color-background-rezult: rgb(102, 213, 86);
+    /* text */
+    --text-primary: "Arial", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-background-body);
+    font-family: var(--text-primary);
+    color: var(--color-text-primary);
+    letter-spacing: 0.03em;
+    font-weight: 400;
+    text-align: left;
+}
+
+.task > h2 {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    background-color: var(--color-background-initial-data);
+    padding: 10px;
+}
+
+
+.task > p {
+    text-align: justify;
+    font-size: 14px;
+    background-color: var(--color-background-initial-data);
+    padding: 10px;
+}
+
+
+.initial-task {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
+}
+
+.rezult {
+    margin-top: 10px;
+}
+
+.initial-data {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    background-color: var(--color-background-rezult);
+    padding: 10px;
+}
+
+.text-rezult {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    background-color: var(--color-background-rezult);
+    padding: 10px;
+}
+
+
+
